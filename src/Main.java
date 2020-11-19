@@ -29,6 +29,6 @@ public class Main extends PApplet {
         this.trace.drawObjet();
         this.trace.updateRayTracing(mouseX, mouseY);
         this.trace.drawRayTracing();
-        //this.trace.drawCercleRayTracing();
+        this.trace.drawCercleRayTracing();
     }
 }
